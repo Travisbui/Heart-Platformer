@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://co8bnsaimj5c1"]
+[gd_scene load_steps=5 format=3 uid="uid://co8bnsaimj5c1"]
 
 [ext_resource type="Script" path="res://Scenes/world.gd" id="1_bsbbn"]
 [ext_resource type="PackedScene" uid="uid://dt2t2ojpgks4x" path="res://Scenes/player.tscn" id="2_n32ax"]
+[ext_resource type="PackedScene" uid="uid://6jsoqvcs8feb" path="res://Assets/spikes.tscn" id="3_d4st4"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6ujip"]
 size = Vector2(19.75, 63)
@@ -12,13 +13,13 @@ script = ExtResource("1_bsbbn")
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-position = Vector2(-1, -4)
-polygon = PackedVector2Array(0, 0, 16, 0, 15, 111, 40, 112, 57, 119, 72, 120, 96, 104, 120, 104, 123, 119, 152, 120, 168, 112, 176, 96, 199, 97, 200, 112, 214, 102, 225, 92, 253, 91, 255, 117, 289, 117, 289, 4, 320, 4, 320, 15, 320, 176, 0, 176)
+position = Vector2(1, -3)
+polygon = PackedVector2Array(0, 0, 16, 0, 15, 111, 40, 111, 57, 119, 72, 120, 96, 104, 120, 104, 123, 119, 152, 119, 157, 119, 157, 99, 200, 98, 219, 98, 211, 99, 225, 92, 255, 92, 255, 117, 289, 117, 289, 4, 320, 4, 320, 15, 320, 176, 0, 176)
 
 [node name="Polygon2D" type="Polygon2D" parent="StaticBody2D/CollisionPolygon2D"]
 
 [node name="Player" parent="." instance=ExtResource("2_n32ax")]
-position = Vector2(55, 31)
+position = Vector2(32, 82)
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="."]
 
@@ -30,3 +31,15 @@ shape = SubResource("RectangleShape2D_6ujip")
 offset_left = 226.0
 offset_right = 246.0
 offset_bottom = 62.0
+
+[node name="Spikes" parent="." instance=ExtResource("3_d4st4")]
+position = Vector2(122, 115)
+
+[node name="Spikes2" parent="." instance=ExtResource("3_d4st4")]
+position = Vector2(140, 115)
+
+[node name="Spikes4" parent="." instance=ExtResource("3_d4st4")]
+position = Vector2(255, 113)
+
+[node name="Spikes5" parent="." instance=ExtResource("3_d4st4")]
+position = Vector2(271, 113)
