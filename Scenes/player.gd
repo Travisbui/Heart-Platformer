@@ -34,7 +34,7 @@ func apply_gravity(delta):
 func handle_wall_jump():
 	if not is_on_wall_only(): return
 	var wall_normal = get_wall_normal()
-	if Input.is_action_just_pressed("ui_up") and wall_normal == Vector2.LEFT:
+	if Input.is_action_just_pressed("ui_up"):
 		velocity.x = wall_normal.x * movement_data.speed
 		velocity.y = movement_data.jump_velocity
 		just_wall_jumped = true
@@ -53,7 +53,7 @@ func handle_jump():
 			velocity.y = movement_data.jump_velocity / 2
 		
 		if Input.is_action_just_pressed("ui_up") and air_jump and not just_wall_jumped:
-			velocity.y = movement_data.jump_velocity * 1
+			velocity.y = movement_data.jump_velocity * 0.8
 			air_jump = false
 			
 func apply_friction(input_axis, delta):
