@@ -33,13 +33,13 @@ offset_right = 246.0
 offset_bottom = 62.0
 
 [node name="Spikes" parent="." instance=ExtResource("3_d4st4")]
-position = Vector2(122, 115)
+position = Vector2(125, 117)
 
 [node name="Spikes2" parent="." instance=ExtResource("3_d4st4")]
-position = Vector2(140, 115)
+position = Vector2(141, 117)
 
 [node name="Spikes4" parent="." instance=ExtResource("3_d4st4")]
-position = Vector2(255, 113)
+position = Vector2(257, 115)
 
 [node name="Spikes5" parent="." instance=ExtResource("3_d4st4")]
-position = Vector2(271, 113)
+position = Vector2(273, 115)

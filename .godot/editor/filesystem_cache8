@@ -1,10 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1707942316
-DefaultMovementData.tres::Resource/PlayerMovementData::1560376669558402965::1707781020::0::1::::<><>::res://PlayerMovementData.gd
+::res://::1708036706
+DefaultMovementData.tres::Resource/Resource::1560376669558402965::1707781020::0::1::::<><>::res://PlayerMovementData.gd
 FasterMovementData.tres::Resource/Resource::3364191796044826578::1707340628::0::1::::<><>::res://PlayerMovementData.gd
+hazard_area.tscn::PackedScene::5134282876691854736::1707945951::0::1::::<><>::
 PlayerMovementData.gd::GDScript::-1::1707434880::0::1::::PlayerMovementData<>Resource<>::
 README.md::TextFile::-1::1702336671::0::1::::<><>::
 SlowerMovementData.tres::Resource/Resource::3157109496766224618::1707340628::0::1::::<><>::res://PlayerMovementData.gd
+spikes.tscn::PackedScene::5653736865410506067::1707945951::0::1::::<><>::uid://bery1gkgvet26::::res://Assets/spikes.png<>uid://c4itr5hgm1hfr::::res://Assets/hazard_area.tscn
 world.gd::GDScript::-1::1702336671::0::1::::<>Node2D<>::
 world.tscn::PackedScene::8783186668635941044::1702336671::0::1::::<><>::res://world.gd<>uid://b3vkmfxunohh8
 ::res://Assets/::1707340628
@@ -53,8 +55,8 @@ white_9slice.png::CompressedTexture2D::5894369305210124903::1702336671::17023366
 white_9slice.tres::StyleBoxTexture::9156916769484239997::1702336671::0::1::::<><>::uid://cp8jnv44e4h3l
 ::res://Heart-Platformer/::1702338307
 README.md::TextFile::-1::1702338307::0::1::::<><>::
-::res://Scenes/::1707781596
-player.gd::GDScript::-1::1707781565::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8549790868779633417::1707781596::0::1::::<><>::res://Scenes/player.gd<>uid://db34qqr0dkden::::res://Assets/player.png<>uid://wh4f8gu1rpfh::::res://DefaultMovementData.tres
+::res://Scenes/::1707945951
+player.gd::GDScript::-1::1707945848::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8549790868779633417::1707945951::0::1::::<><>::res://Scenes/player.gd<>uid://db34qqr0dkden::::res://Assets/player.png<>uid://wh4f8gu1rpfh::::res://DefaultMovementData.tres
 world.gd::GDScript::-1::1702336671::0::1::::<>Node2D<>::
-world.tscn::PackedScene::5823694522316368734::1707781594::0::1::::<><>::res://Scenes/world.gd<>uid://dt2t2ojpgks4x::::res://Scenes/player.tscn
+world.tscn::PackedScene::5823694522316368734::1707945951::0::1::::<><>::res://Scenes/world.gd<>uid://dt2t2ojpgks4x::::res://Scenes/player.tscn<>uid://6jsoqvcs8feb::::res://Assets/spikes.tscn
