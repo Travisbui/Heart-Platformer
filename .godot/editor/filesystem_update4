@@ -6,3 +6,4 @@ res://Scenes/heart.gd
 res://Scenes/level_completed.tscn
 res://Scripts/Events.gd
 res://Scenes/world.gd
+res://Scenes/level_tile_map.tscn
