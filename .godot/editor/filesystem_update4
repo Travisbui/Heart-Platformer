@@ -1,4 +1,8 @@
 res://Scenes/world.tscn
 res://Scenes/player.tscn
-res://spikes.tscn
-res://hazard_area.tscn
+res://Scenes/heart.tscn
+res://Scenes/spikes.tscn
+res://Scenes/heart.gd
+res://Scenes/level_completed.tscn
+res://Scripts/Events.gd
+res://Scenes/world.gd

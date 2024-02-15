@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scenes/player.gd" id="1_f7cls"]
 [ext_resource type="Texture2D" uid="uid://db34qqr0dkden" path="res://Assets/player.png" id="2_fadio"]
-[ext_resource type="Resource" uid="uid://wh4f8gu1rpfh" path="res://DefaultMovementData.tres" id="2_pg63x"]
+[ext_resource type="Resource" uid="uid://wh4f8gu1rpfh" path="res://Scripts/DefaultMovementData.tres" id="2_qp63u"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vyu25"]
 atlas = ExtResource("2_fadio")
@@ -89,7 +89,7 @@ collision_layer = 2
 floor_constant_speed = true
 floor_snap_length = 2.0
 script = ExtResource("1_f7cls")
-movement_data = ExtResource("2_pg63x")
+movement_data = ExtResource("2_qp63u")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -11)
