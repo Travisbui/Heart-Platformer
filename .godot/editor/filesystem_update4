@@ -4,3 +4,5 @@ res://Scenes/world.tscn
 res://Scenes/world.gd
 res://Scenes/level_one.tscn
 res://Scenes/player.tscn
+res://start_menu.tscn
+res://start_menu.gd
