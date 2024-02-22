@@ -7,3 +7,4 @@ res://Scenes/player.tscn
 res://Scenes/level_completed.tscn
 res://Scenes/hazard_area.tscn
 res://Assets/default_theme.tres
+res://Scenes/player.gd
